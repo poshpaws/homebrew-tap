@@ -1,27 +1,27 @@
 class JiraThing < Formula
   desc "Jira and Confluence CLI, TUI and MCP server for agents and humans"
   homepage "https://github.com/poshpaws/jira-thing"
-  version "0.28.0"
+  version "0.29.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/poshpaws/jira-thing/releases/download/v0.28.0/jira-thing-darwin-arm64"
-      sha256 "70dfdf169f4b68f4c532386a244c164ae8c90e36ba235420372a1124838e76ab"
+      url "https://github.com/poshpaws/jira-thing/releases/download/v0.29.0/jira-thing-darwin-arm64"
+      sha256 "b93e399beb638f3f57f345afcf29667789ea019ea8df45dc928d2a6f9bebfa3a"
     end
     on_intel do
-      url "https://github.com/poshpaws/jira-thing/releases/download/v0.28.0/jira-thing-darwin-amd64"
-      sha256 "adcebb7371a97aa57792dd1ff286d1285ef5fca6ec211c6eadbfb59f558bef55"
+      url "https://github.com/poshpaws/jira-thing/releases/download/v0.29.0/jira-thing-darwin-amd64"
+      sha256 "7046537424b588447a0118903eaf36047382554407fd220080d993e75b07667d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/poshpaws/jira-thing/releases/download/v0.28.0/jira-thing-linux-arm64"
-      sha256 "2a96346a225d15ad14f86b6a3c7d7ca6aaaefed1004528d98f450d0ba07f127d"
+      url "https://github.com/poshpaws/jira-thing/releases/download/v0.29.0/jira-thing-linux-arm64"
+      sha256 "3ea6b24e75c31b1151a6bfa89a693293484e5c2eaed5faf7690bb245944bdd50"
     end
     on_intel do
-      url "https://github.com/poshpaws/jira-thing/releases/download/v0.28.0/jira-thing-linux-amd64"
-      sha256 "95cb10bdb9feb9941a474cbfc0157c451311ac5dda3a1a3303da0ea7784e6a82"
+      url "https://github.com/poshpaws/jira-thing/releases/download/v0.29.0/jira-thing-linux-amd64"
+      sha256 "8434645fbe1e8c0304b47450fbb436c9232edc2c2367127323d6ba13d37c6259"
     end
   end
 
